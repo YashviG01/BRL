@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior: smooth;
+text-decoration: none;
+list-style: none;
+color: black;
+}
+
+:root{
+    background-color: #ffffff;
+    color: black;
+}
+
+.logo{
+    height: 24px;
+    width: 105px;
+}
+header{
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar{
+    display: flex;
+    flex-direction: ;
+}
