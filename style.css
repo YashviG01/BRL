@@ -112,7 +112,7 @@ padding-right: 160px;
     margin: 0 auto;
     padding: 0;
     width: 104%;
-border: 2px solid black;
+/* border: 2px solid black; */
 overflow: hidden;
 }
 
@@ -123,7 +123,7 @@ overflow: hidden;
         display: flex;
         justify-content: space-between;
         left: 10px;
-       border: 2px solid black;
+       /* border: 2px solid black; */
     }
     .left{padding-left: 10px;
         width:500px ;
@@ -134,7 +134,7 @@ overflow: hidden;
     }
     .right{
 text-align: center;
-        padding-top: 70px;
+        padding-top: 20px;
     }
     .right p{
 font-family: 'Courier New', Courier, monospace;
@@ -467,6 +467,132 @@ font-family: 'Times New Roman', Times, serif;}
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 15px;
 }
+.bannergrid
+{
+    width: 1440px;
+    height:600px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.bannergrid p{font-size: 40px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bannergrid a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+transition-delay: .1s;
+transition: all .3s ease .5s;
+}
+
+.bannergrid a:hover{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.rightgrid{
+    width: 548px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.leftgrid{padding-left: 20px;
+    width: 548px;
+    height: 600px;
+    background:url(../images/cream\ sofa.png);
+}
+.bedroom{
+    width: 548px;
+    height: 275px;
+    background: url(../drawers.png);
+}
+
+.kitchen{
+    width: 548px;
+    height: 275px;
+    background: url(../images/toaster.png);
+}
+
+.newarrivals{
+    width:1280px ;
+    height: 443px;
+    gap: 25px;
+    left: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+.newarrivalsheading{
+    width: 1120px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+.newpara{
+    height:10px;
+}
+.newarrivalsheading p{
+font-size: 25px;
+}
+
+.newarrivalsheading a{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caraousal{
+    width: 1280px;
+    height: 433px;
+}
+.newimage{
+    background: url(../images/grey\ sofa.png);
+
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    padding-left: 0px;
+    width: 20%;
+    margin: 5px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0,0, 0.25) ;
+transition: all 0.5s ease 0.5s;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16);
+transform: translate(0px,-8px);
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+}
+.content p{
+    text-align: center;
+    padding-top: 0 8px;
+}
+.content h6{
+     font-size: 26px;
+     text-align: center;
+
+}
+.content ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* .article1{
     display: flex;
     flex-direction: column;
